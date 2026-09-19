@@ -117,5 +117,31 @@ A diferença entre os quartis, juntamente com a média de aproximadamente
 US$ 90,5 milhões observada anteriormente, indica uma grande variação
 nas receitas dos filmes analisados.
 
+### Amplitude do orçamento
+
+O menor orçamento registrado na amostra foi de US$ 1, enquanto o maior foi
+de US$ 380 milhões, resultando em uma amplitude de aproximadamente
+US$ 380 milhões.
+
+Durante a análise foram identificados diversos registros com orçamentos
+extremamente baixos. Como não é possível determinar apenas pela base se
+esses valores representam erros de registro ou casos reais, optou-se por
+mantê-los na análise.
+
+Esse resultado também demonstra uma limitação da amplitude como medida de
+dispersão, pois ela considera apenas os valores mínimo e máximo e pode ser
+fortemente influenciada por valores extremos. Sensível aos outliers
+
+### Amplitude da receita
+
+A menor receita registrada na amostra foi de US$ 1, enquanto a maior foi
+de aproximadamente US$ 2,79 bilhões. Dessa forma, a amplitude das receitas
+foi de aproximadamente US$ 2,79 bilhões.
+
+A elevada amplitude demonstra a grande diferença existente entre os valores
+extremos de receita da amostra. Entretanto, como essa medida considera
+somente os valores mínimo e máximo, ela é bastante sensível à presença
+de valores extremos.
+
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
