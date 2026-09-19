@@ -301,5 +301,58 @@ forte com a receita do que com a popularidade.
 É importante destacar que as correlações representam associações e não
 permitem concluir que um orçamento maior cause diretamente maior
 popularidade ou receita.
+
+### Pergunta 3 — Quais características estão associadas às maiores receitas?
+
+Para investigar quais características estão associadas às maiores receitas,
+os filmes foram agrupados por gênero. Para cada grupo, foram calculados a
+receita média, o orçamento médio, a duração média e a quantidade de filmes
+presentes na amostra.
+
+Os gêneros com maior receita média foram Animation, Adventure, Fantasy e
+Family. Animation apresentou receita média de aproximadamente US$ 223,7
+milhões, seguido por Adventure, com US$ 204,5 milhões, Fantasy, com
+US$ 198,7 milhões, e Family, com US$ 195,0 milhões.
+
+Também foi observado que esses gêneros apresentam orçamentos médios
+relativamente elevados, próximos de US$ 58 a 64 milhões. Esse resultado é
+consistente com a correlação positiva de aproximadamente 0,730 encontrada
+anteriormente entre orçamento e receita.
+
+Em relação à duração, não foi observado um padrão semelhante. Entre os
+gêneros de maior receita média existem diferentes durações médias. Animation,
+por exemplo, apresentou duração média próxima de 90 minutos, enquanto
+Adventure apresentou aproximadamente 113 minutos.
+
+Dessa forma, os resultados da amostra indicam uma associação mais evidente
+entre orçamento e receita do que entre duração e receita.
+
+É importante considerar que um mesmo filme pode pertencer a mais de um
+gênero e, portanto, participar das estatísticas de diferentes categorias.
+Além disso, gêneros com poucos registros devem ser interpretados com maior
+cautela.
+
+### Receita média por gênero
+
+O gráfico apresenta a receita média dos gêneros que possuem pelo menos
+50 filmes na amostra, evitando que categorias com poucos registros tenham
+grande influência na comparação.
+
+Animation apresentou a maior receita média, com aproximadamente
+US$ 223,7 milhões, seguido por Adventure, Fantasy e Family, todos com
+receitas médias próximas ou superiores a US$ 195 milhões.
+
+Também é possível observar uma diferença considerável entre os gêneros
+de maior receita média e categorias como Drama, Horror e Documentary.
+
+Os gêneros com maiores receitas médias também apresentaram, de maneira
+geral, orçamentos médios elevados. Esse resultado é consistente com a
+correlação positiva de aproximadamente 0,730 encontrada entre orçamento
+e receita.
+
+Entretanto, os resultados representam associações observadas na amostra
+e não permitem afirmar que o gênero ou um orçamento elevado sejam,
+isoladamente, responsáveis por uma maior receita.
+
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
