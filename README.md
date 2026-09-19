@@ -166,5 +166,32 @@ Por esse motivo, o desvio padrão é uma medida mais adequada para interpretar
 a dispersão neste contexto, pois é expresso na mesma unidade dos dados
 originais.
 
+### Dispersão da receita
+
+A variância da receita foi de aproximadamente 2,76 × 10¹⁶, enquanto o
+desvio padrão foi de aproximadamente US$ 166,28 milhões.
+
+O desvio padrão é superior à própria receita média, que foi de
+aproximadamente US$ 90,51 milhões. Isso indica uma elevada dispersão
+dos valores de receita na amostra.
+
+O resultado é consistente com as análises anteriores, nas quais foram
+observadas grandes diferenças entre média e mediana e entre os valores
+mínimo e máximo.
+
+### Correlação entre orçamento e receita
+
+Foi calculada a correlação de Pearson entre orçamento e receita, obtendo-se
+um coeficiente de aproximadamente 0,730.
+
+O resultado indica uma associação linear positiva considerável entre as
+duas variáveis. Dessa forma, na amostra analisada, filmes com maiores
+orçamentos tendem também a apresentar maiores receitas.
+
+Entretanto, a correlação não implica causalidade. Portanto, o resultado
+não permite concluir que o aumento do orçamento seja diretamente responsável
+pelo aumento da receita, uma vez que outros fatores podem influenciar o
+desempenho financeiro dos filmes.
+
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
