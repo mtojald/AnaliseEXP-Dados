@@ -239,5 +239,67 @@ a média, fazendo com que ela seja superior à mediana.
 
 O gráfico também é consistente com o elevado desvio padrão encontrado,
 demonstrando a grande dispersão dos orçamentos da amostra.
+
+### Distribuição das receitas
+
+O histograma das receitas apresenta uma forte assimetria à direita.
+A maior parte dos filmes está concentrada nas faixas de menor receita,
+enquanto uma pequena quantidade apresenta receitas muito elevadas.
+
+Esse comportamento explica a grande diferença observada entre a receita
+média, de aproximadamente US$ 90,51 milhões, e a mediana, de
+US$ 30 milhões.
+
+Os filmes com receitas extremamente elevadas aumentam significativamente
+a média e também contribuem para o elevado desvio padrão observado
+anteriormente.
+
+### Pergunta 1 — Filmes com maiores durações são menos vistos?
+
+Como a base de dados não possui uma variável que represente diretamente
+a quantidade de espectadores, foi utilizada a variável `popularity` como
+um indicador aproximado do interesse do público.
+
+Foi calculada a correlação de Pearson entre duração e popularidade,
+obtendo-se um coeficiente de aproximadamente 0,110.
+
+O valor indica uma correlação positiva muito fraca entre as variáveis.
+Portanto, nesta amostra, não foi identificada uma relação linear relevante
+que indique que filmes mais longos apresentam menor popularidade.
+
+Dessa forma, os resultados obtidos não sustentam a hipótese inicial de que
+filmes de menor duração são necessariamente mais populares.
+
+Também não é possível atribuir esse comportamento a fatores geracionais,
+como o consumo de conteúdos curtos em redes sociais, pois essa relação não
+é medida diretamente pelo conjunto de dados analisado.
+Como análise complementar, também foi calculada a correlação entre duração
+e quantidade de votos (`vote_count`), obtendo-se aproximadamente 0,107.
+
+Assim como ocorreu com a popularidade, o resultado representa uma correlação
+positiva muito fraca. Os dois indicadores analisados, portanto, não apresentam
+evidências de que filmes mais longos sejam necessariamente menos populares
+ou recebam menor engajamento do público.
+
+### Pergunta 2 — Existe relação entre orçamento e popularidade?
+
+Foi calculada a correlação de Pearson entre orçamento e popularidade,
+obtendo-se um coeficiente de aproximadamente 0,369.
+
+O resultado indica uma associação positiva entre as variáveis, porém de
+intensidade limitada. Dessa forma, filmes com maiores orçamentos apresentam
+certa tendência a possuir maior popularidade, mas o orçamento isoladamente
+não apresenta uma relação linear forte com essa variável.
+
+Como comparação, a correlação entre orçamento e receita calculada
+anteriormente foi de aproximadamente 0,730, indicando uma associação
+consideravelmente maior.
+
+Portanto, na amostra analisada, o orçamento apresenta uma relação mais
+forte com a receita do que com a popularidade.
+
+É importante destacar que as correlações representam associações e não
+permitem concluir que um orçamento maior cause diretamente maior
+popularidade ou receita.
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
