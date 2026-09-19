@@ -193,5 +193,51 @@ não permite concluir que o aumento do orçamento seja diretamente responsável
 pelo aumento da receita, uma vez que outros fatores podem influenciar o
 desempenho financeiro dos filmes.
 
+### Normalização dos dados
+
+As variáveis orçamento, receita e duração possuem unidades e escalas
+diferentes, o que dificulta sua comparação direta.
+
+Por esse motivo, foi aplicada a normalização por Z-score. Esse método
+transforma os valores considerando sua distância em relação à média,
+expressa em número de desvios padrão.
+
+Após a transformação, as três variáveis apresentaram média próxima de
+zero e desvio padrão igual a 1, confirmando que a normalização foi
+realizada corretamente.
+
+A transformação foi aplicada em uma cópia dos dados, preservando os
+valores originais para as demais análises.
+
+### Relação entre orçamento e receita
+
+O gráfico de dispersão apresenta uma tendência positiva entre orçamento
+e receita. De maneira geral, filmes com maiores orçamentos tendem a
+apresentar receitas maiores.
+
+Essa tendência é consistente com a correlação de Pearson calculada
+anteriormente, cujo coeficiente foi de aproximadamente 0,730.
+
+Apesar da relação positiva, observa-se uma dispersão considerável dos
+pontos. Filmes com níveis semelhantes de orçamento podem apresentar
+receitas bastante diferentes, indicando que o orçamento não é o único
+fator associado ao desempenho financeiro.
+
+Também são observados alguns valores extremos de receita, que contribuem
+para a elevada dispersão identificada nas análises anteriores.
+
+### Distribuição dos orçamentos
+
+O histograma mostra que a distribuição dos orçamentos apresenta assimetria
+à direita. A maior parte dos filmes está concentrada nas faixas de menor
+orçamento, enquanto uma quantidade menor de filmes apresenta valores
+consideravelmente mais elevados.
+
+Essa distribuição ajuda a explicar a diferença observada anteriormente
+entre a média e a mediana. Os filmes com orçamentos muito elevados aumentam
+a média, fazendo com que ela seja superior à mediana.
+
+O gráfico também é consistente com o elevado desvio padrão encontrado,
+demonstrando a grande dispersão dos orçamentos da amostra.
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
