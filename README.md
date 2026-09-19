@@ -9,9 +9,9 @@ path = kagglehub.dataset_download("sibamsamanta07/movies-dataset-45k-films-with-
 print("Path to dataset files:", path)
 ``` 
 
-## Etapa 1 - Pré Processamento
+# Etapa 1 - Pré Processamento
 
-### Pré-processamento dos Dados
+## Pré-processamento dos Dados
 
 Antes da realização das análises estatísticas, foi necessário avaliar a
 qualidade da base de dados. Nesta etapa, serão identificados valores
@@ -38,7 +38,7 @@ A base geral possui 45.460 registros, enquanto a amostra resultante possui
 A base original tratada foi preservada para análises que não dependem dessas
 variáveis.
 
-# B. Análise Estatística
+# Etapa 2 - Análise Estatística
 
 Após o pré-processamento, inicia-se a análise estatística dos filmes.
 
@@ -142,6 +142,29 @@ A elevada amplitude demonstra a grande diferença existente entre os valores
 extremos de receita da amostra. Entretanto, como essa medida considera
 somente os valores mínimo e máximo, ela é bastante sensível à presença
 de valores extremos.
+
+### Desvio padrão do orçamento
+
+O desvio padrão dos orçamentos foi de aproximadamente US$ 40,19 milhões,
+valor superior ao orçamento médio de aproximadamente US$ 31,16 milhões.
+
+Esse resultado indica uma elevada dispersão dos orçamentos na amostra,
+ou seja, os valores apresentam grandes diferenças entre si.
+
+Esse comportamento é consistente com a grande distância observada entre
+os valores mínimo e máximo e com a diferença entre média e mediana.
+
+### Variância do orçamento
+
+A variância do orçamento foi de aproximadamente 1,61 × 10¹⁵.
+
+O elevado valor indica uma grande dispersão dos orçamentos em relação à
+média. Como a variância utiliza os desvios elevados ao quadrado, sua
+interpretação direta é menos intuitiva.
+
+Por esse motivo, o desvio padrão é uma medida mais adequada para interpretar
+a dispersão neste contexto, pois é expresso na mesma unidade dos dados
+originais.
 
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
