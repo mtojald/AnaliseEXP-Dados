@@ -89,5 +89,33 @@ receita que aparece com maior frequência na amostra.
 Assim como observado nos orçamentos, a média isoladamente pode não representar
 adequadamente um valor típico de receita dos filmes analisados.
 
+### Quartis do orçamento
+
+A análise dos quartis mostra que 25% dos filmes da amostra possuem orçamento
+de até US$ 5,2 milhões, enquanto 50% possuem orçamento de até US$ 17 milhões.
+
+O terceiro quartil indica que 75% dos filmes possuem orçamento de até
+US$ 40 milhões. Consequentemente, os 25% restantes apresentam orçamentos
+superiores a esse valor.
+
+O segundo quartil corresponde à mediana calculada anteriormente,
+confirmando o valor de US$ 17 milhões.
+
+### Quartis da receita
+
+A análise dos quartis mostra que 25% dos filmes da amostra possuem receita
+de até aproximadamente US$ 7,07 milhões.
+
+A mediana indica que 50% dos filmes possuem receita de até US$ 30 milhões,
+enquanto o terceiro quartil mostra que 75% apresentam receita de até
+US$ 100 milhões.
+
+Dessa forma, os 25% restantes apresentam receitas superiores a
+US$ 100 milhões.
+
+A diferença entre os quartis, juntamente com a média de aproximadamente
+US$ 90,5 milhões observada anteriormente, indica uma grande variação
+nas receitas dos filmes analisados.
+
 https://docs.google.com/document/d/19mkWK-X600ZnGFmysuBwuirgvl4rbzHqy7tcu8NKGjU/edit?usp=sharing
 https://docs.google.com/spreadsheets/d/17DaHDj6l8P4jeTncjDNv83UqBjw2L46kO19Fu1yo1Xo/edit?usp=sharing
